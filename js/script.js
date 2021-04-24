@@ -7,7 +7,7 @@ let quotesData;
 
 const showQuotes = () => {
 	let random = Math.floor(Math.random() * data.length);
-	console.log(random);
+	//console.log(random);
 	quotesData = data[random].text;
 	quotes.innerHTML = data[random].text;
 	author.innerHTML = data[random].author == null? "Anonymous" : data[random].author;
