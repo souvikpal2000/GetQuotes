@@ -1,4 +1,3 @@
-/*styles*/
 body{
 	position: absolute;
     top: 50%;
@@ -7,7 +6,7 @@ body{
     transform: translate(-50%, -50%)
 }
 .blockquote{
-	width: 60vw;
+	width: 70vw;
 	padding: 25px;
 	background: #f8fffe;
 	border: 1px solid #8cdcd1;
@@ -44,7 +43,7 @@ body{
 	content: "\2014\0020";
 }
 .button{
-	width: 60vw;
+	width: 70vw;
 	max-height: 40px;
 	display: flex;
 	justify-content: center;
